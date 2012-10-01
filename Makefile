@@ -20,6 +20,7 @@ haskell:
 	$(hs-compiler-str) problem41/hs/problem41 problem41/hs/problem41.hs
 	$(hs-compiler-str) problem48/hs/problem48 problem48/hs/problem48.hs
 	$(hs-compiler-str) problem55/hs/problem52 problem52/hs/problem52.hs
+	$(hs-compiler-str) problem55/hs/problem52 problem52/hs/problem53.hs
 	$(hs-compiler-str) problem55/hs/problem55 problem55/hs/problem55.hs
 
 vhdl:
