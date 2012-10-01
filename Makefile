@@ -22,6 +22,7 @@ haskell:
 	$(hs-compiler-str) problem55/hs/problem52 problem52/hs/problem52.hs
 	$(hs-compiler-str) problem55/hs/problem52 problem52/hs/problem53.hs
 	$(hs-compiler-str) problem55/hs/problem55 problem55/hs/problem55.hs
+	$(hs-compiler-str) problem56/hs/problem56 problem56/hs/problem56.hs
 
 vhdl:
 	cd problem1/vhdl; ghdl -a --ieee=synopsys -fexplicit *.vhd
