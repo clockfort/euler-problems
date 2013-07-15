@@ -1,5 +1,4 @@
 import Data.List.Ordered
-import Data.Numbers.Primes
 
 main = print $ head $ filter (\n -> (n `member`  hexagonals) && ( n `member` pentagonals)) triangles
 
