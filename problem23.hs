@@ -14,5 +14,5 @@ abundantNumbers = filter (\n -> sum (divisors n) > n) [1..28123]
 possibleSums = Data.List.Ordered.nub $ sort $ [n + m | n <-abundantNumbers,m<-abundantNumbers]
 -}
 
-main = putStrLn $ show $ sum $ filter (\n -> has precomputedPossibleSums n == False) [1..28123]
+main = print $ sum $ filter (\n -> has precomputedPossibleSums n == False) [1..28123]
 
